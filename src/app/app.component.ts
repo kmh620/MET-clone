@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Art } from './art';
+// import { Art } from './art';
+import { Art } from './models/art.model';
 
 
 @Component({
@@ -13,7 +14,7 @@ export class AppComponent {
 
 
 
-  masterArtList: Art[] = [
+  arts: Art[] = [
    new Art('Textile Sample', 'Dagobert Peche', 'Silk', 'ca 1920'),
    new Art('New York #2', 'Hedda Sterne', 'Oil on Canvas', '1953'),
    new Art('Double Standard', 'Terry Winters', 'Lithograph print', '1984'),

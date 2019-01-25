@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Art } from '../art';
+// import { Art } from '../art';
+import { Art } from '../models/art.model';
 import { AppComponent } from '../app.component';
 
 @Component({
@@ -8,7 +9,6 @@ import { AppComponent } from '../app.component';
   styleUrls: ['./collection.component.css']
 })
 export class CollectionComponent implements OnInit {
-  artworks = this.masterArtList;
 
   constructor() { }
 
