@@ -1,6 +1,24 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink=''>THEMET</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="about">Visit</a></li>
+      <li><a routerLink="about">Exhibitions</a></li>
+      <li><a routerLink="about">Events</a></li>
+      <li><a routerLink="about">Art</a></li>
+      <li><a routerLink="about">Learn</a></li>
+      <li><a routerLink="about">Join and Give</a></li>
+      <li><a routerLink="about">Shop</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <h1>{{currentHeadline}}</h1>
-  <app-collection></app-collection>
-  <ul>
-    <li *ngFor="let currentArt of arts">{{currentArt.title}},  {{currentArt.artist}}</li>
-  </ul>
+<div class="container">
+  <h1>{{ title }}</h1>
+  <!-- <router-outlet></router-outlet> -->
+</div>
+
+
+<!-- search bar here-->

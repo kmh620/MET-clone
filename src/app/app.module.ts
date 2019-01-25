@@ -10,6 +10,7 @@ import { CollectionComponent } from './collection/collection.component';
 import { LearnStudentComponent } from './learn-student/learn-student.component';
 import { MembershipComponent } from './membership/membership.component';
 import { ShopComponent } from './shop/shop.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ShopComponent } from './shop/shop.component';
     CollectionComponent,
     LearnStudentComponent,
     MembershipComponent,
-    ShopComponent
+    ShopComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
