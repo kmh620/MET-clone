@@ -6,8 +6,7 @@
 
 <!-- <app-art-detail [art]=""></app-art-detail> -->
 
-  <ul>
-    <li *ngFor="let currentArt of arts">{{currentArt.title}},  {{currentArt.artist}}</li>
+  <ul class="artworks">
+    <li *ngFor="let art of childArtList">{{art.title}},  {{art.artist}}</li>
   </ul>
-
-  <app-collection></app-collection>
+  <app-collection [childArtList]="masterArtList"></app-collection>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 // import { Art } from '../art';
 import { Art } from '../models/art.model';
 import { AppComponent } from '../app.component';
@@ -9,6 +9,10 @@ import { AppComponent } from '../app.component';
   styleUrls: ['./collection.component.css']
 })
 export class CollectionComponent implements OnInit {
+
+  @Input() childArtList: Art[];
+
+  artworks =  this.masterArtList;
 
   constructor() { }
 
