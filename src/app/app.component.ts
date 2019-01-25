@@ -13,7 +13,6 @@ export class AppComponent {
   currentHeadline: string = 'Experience 5,000 Years of Art at The Met';
 
 
-
   arts: Art[] = [
    new Art('Textile Sample', 'Dagobert Peche', 'Silk', 'ca 1920'),
    new Art('New York #2', 'Hedda Sterne', 'Oil on Canvas', '1953'),
