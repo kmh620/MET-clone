@@ -1,3 +1,13 @@
-<p>
-  collection works!
-</p>
+<h2>The Met Collection</h2>
+ <p>When The Met was founded in 1870, it owned not a single work of art. Through the combined efforts of generations of curators, researchers, and collectors, our collection has grown to represent more than 5,000 years of art from across the globe—from the first cities of the ancient world to the works of our time.</p>
+<h3>A First Look</h3>
+<p>Modern and Contemporary Art at The Met</p>
+<p>View the Department of Modern and Contemporary Art's rich holdings—more than 12,000 works of art across a broad range of media from 1900 to the present.</p>
+
+<ul class="artwork">
+  <li *ngFor="let art of artworks">
+ <span class="art-title">{{art.title}}</span>  {{art.artist}}
+  </li>
+</ul>
+<!--
+<app-art-detail [art]=""></app-art-detail> -->

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Art } from './art';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,7 +19,6 @@ export class AppComponent {
    new Art('Double Standard', 'Terry Winters', 'Lithograph print', '1984'),
    new Art('\"Faster\"','Paul Schwieder', 'Glass', '2002'),
    new Art('Reclining Semi-Nude with Arms Raised', 'Egon Shiele', 'Graphite on Paper', '1914'),
-   new Art('Bauhaus Archive', 'Gertrud Preiswerk', 'Watercolor', 'Unknown'),
-
+   new Art('Bauhaus Archive', 'Gertrud Preiswerk', 'Watercolor', 'Unknown')
  ];
 }
