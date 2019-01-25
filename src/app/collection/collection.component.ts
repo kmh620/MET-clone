@@ -9,6 +9,7 @@ import { AppComponent } from '../app.component';
   styleUrls: ['./collection.component.css']
 })
 export class CollectionComponent implements OnInit {
+  masterArtList: any;
 
   @Input() childArtList: Art[];
 
