@@ -15,9 +15,18 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
 * **Link for 'Art' generates error**: "RangeError: Maximum call stack size exceeded" = Problem with loop.
 * Not all HTML pages have info
 * CSS unfinished
-* No component functions
+* No component functions?
 * app.component.html has commented code-copied from source site, for displaying logo as home button
-
+* Need to **Add:**
+  * CSS
+  * Search Functionality
+  * Membership/Ticket/Volunteer info entry
+  * _^or_  Shop page?
+  * 1 < dropdown menu
+  * **TheMET Api** : https://metmuseum.github.io/
+  * Change favicon?
+  * Home Page
+  * Footer info bar
 
 
 ## __Setup/Installation Requirements__
