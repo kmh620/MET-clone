@@ -6,19 +6,29 @@ _1/25/2019_
 
 #### By Katrina Hockman
 
-## Description
-##### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## __Description__
+ _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
 
-<!-- ## Known Bugs -->
+This site is inspired by the website for The Metropolitan Museum of Art. It's purpose is to mimic the functionality and look of their website.
+
+## __Known Bugs/ What to work on W2__
+* **Link for 'Art' generates error**: "RangeError: Maximum call stack size exceeded" = Problem with loop.
+* Not all HTML pages have info
+* CSS unfinished
+* No component functions
+* app.component.html has commented code-copied from source site, for displaying logo as home button
 
 
-## Setup/Installation Requirements
+
+## __Setup/Installation Requirements__
 
 * Clone repository
 * Run npm install from terminal
+* Run ng serve --open from terminal
+* Navigate through website with clickable links in navbar at top of page _*Warning_: Art link *does not work*
 
 
-### Technologies Used
+### __Technologies Used__
 
 Typescript, Angular, CSS
 
