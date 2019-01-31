@@ -24,6 +24,7 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
   * _^or_  Shop page?
   * 1 < dropdown menu
   * **TheMET Api** : https://metmuseum.github.io/
+  * https://developers.artsy.net/
   * Change favicon?
   * Home Page
   * Footer info bar
