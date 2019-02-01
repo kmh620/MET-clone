@@ -1,0 +1,36 @@
+
+.panel-body {
+  margin: 12px;
+  border: 2px;
+  padding: 4px;
+}
+
+h1 {
+  font-family: "MetSerif", "Georgia", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.166;
+}
+
+h2 {
+  font-family: "MetSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.11;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: #000006;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}

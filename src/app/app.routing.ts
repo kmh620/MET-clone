@@ -8,6 +8,7 @@ import { LearnStudentComponent } from './learn-student/learn-student.component';
 import { MembershipComponent } from './membership/membership.component';
 import { ShopComponent } from './shop/shop.component';
 import { TicketsComponent } from './tickets/tickets.component';
+import { OpenAccessComponent } from './collection/open-access/open-access.component';
 
 
 const appRoutes: Routes = [
@@ -17,7 +18,13 @@ const appRoutes: Routes = [
   },
   {
     path: 'collection',
-    component: CollectionComponent
+    component: CollectionComponent,
+    children: [
+      {
+        path: 'open-access',
+        component: OpenAccessComponent
+      }
+   ]
   },
   {
     path: 'events',
@@ -43,6 +50,7 @@ const appRoutes: Routes = [
     path: 'tickets',
     component: TicketsComponent
   }
+
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

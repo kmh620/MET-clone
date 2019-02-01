@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    color: #000006;
+    font-family: "MetSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+}
