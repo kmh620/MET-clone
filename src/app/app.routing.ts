@@ -24,11 +24,11 @@ const appRoutes: Routes = [
     component: EventsComponent
   },
   {
-    path: 'exhibition',
+    path: 'exhibitionC',
     component: ExhibitionCurrentComponent
   },
   {
-    path: 'learn',
+    path: 'learnUSF',
     component: LearnStudentComponent
   },
   {
