@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-open-access',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./open-access.component.css']
 })
 export class OpenAccessComponent implements OnInit {
+    artworks: FirebaseListObservable<any[]>;
 
   constructor() { }
 
