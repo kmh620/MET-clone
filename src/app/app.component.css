@@ -1,4 +1,4 @@
-/* body {
+body {
     color: #000006;
     font-family: "MetSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -25,7 +25,7 @@ ul {
    display: block;
    text-align: left;
    z-index: 10;
-} */
+}
  .nav-main-item {
     border-bottom: 1px solid #fff;
     display: inline-block;
@@ -36,14 +36,14 @@ ul {
     line-height: 1;
     margin-bottom: 0;
 }
-/*
+
 .nav-main a {
     font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
     font-style: normal;
     color: #fff;
 }
-
+/*
 .nav-toggle {
     float: right;
     margin: 7px 22px 0 0;
@@ -100,6 +100,10 @@ ul {
   text-decoration: none;
 }
 
+.navbar li {
+  display: inline;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -112,7 +116,10 @@ ul {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
   margin: 0;
 }
 

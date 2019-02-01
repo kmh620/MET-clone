@@ -37,6 +37,7 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
 * Run npm install from terminal
 * Run ng serve --open from terminal
 * Navigate through website with clickable links in navbar at top of page _*Warning_: Art link *does not work*
+* Acquire firebase credentials
 
 
 ### __Technologies Used__
