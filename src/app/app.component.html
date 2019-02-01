@@ -1,40 +1,49 @@
-
 <header _ngcontent-c0="" class="main-menu" id="top">
 	<div _ngcontent-c0="" class="content-wrapper content-wrapper--no-margin">
 		<div _ngcontent-c0="" class="main-nav">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
 
-          <ul class="nav-main">
-            <a class="navbar-brand" routerLink=''>THEMET</a>
-            <li class="nav-main-item">
-              <a routerLink="tickets">Visit
-              <span class="nav-toggle"></span></a>
-            </li>
-            <li class="nav-main-item">
-              <a routerLink="exhibition">Exhibitions</a>
-            </li>
-            <li class="nav-main-item">
-              <a routerLink="events">Events</a>
-            </li>
-            <li class="nav-main-item">
-              <a routerLink="collection">Art</a>
-            </li>
-            <li class="nav-main-item">
-              <a routerLink="learn">Learn</a>
-            </li>
-            <li class="nav-main-item">
-              <a routerLink="membership">Join and Give</a>
-            </li>
-            <li class="nav-main-item">
-              <a routerLink="shop">Shop</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+					<ul class="nav-main">
+						<a class="navbar-brand" routerLink=''>THEMET</a>
+						<li class="nav-main-item">
+							<a routerLink="tickets">Visit
+								<span class="nav-toggle"></span></a>
+						</li>
+						<li class="nav-main-item">
+							<a routerLink="exhibition">Exhibitions</a>
+						</li>
+						<li class="nav-main-item">
+							<a routerLink="events">Events</a>
+						</li>
+						<li class="nav-main-item">
+							<a routerLink="collection">Art</a>
+						</li>
+						<div class="dropdown">
+							<button class="dropbtn">Art</button>
+							<div class="dropdown-content">
+								<a routerLink="">The Met Collection</a>
+								<a routerLink="">Timeline of Art History</a>
+								<a routerLink="">Online Features</a>
+								<a routerLink="">MetPublications</a>
+								<a routerLink="">Libraries and Research Centers</a>
+							</div>
+						</div>
+						<li class="nav-main-item">
+							<a routerLink="learn">Learn</a>
+						</li>
+						<li class="nav-main-item">
+							<a routerLink="membership">Join and Give</a>
+						</li>
+						<li class="nav-main-item">
+							<a routerLink="shop">Shop</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 			<!-- <div _ngcontent-c0="" class="main-nav__logo-wrapper"> -->
-        <!-- copied ffrom site, for logo display? -->
-				<!-- <a _ngcontent-c0="" class="main-nav__logo-link" href="http://www.metmuseum.org">
+			<!-- copied ffrom site, for logo display? -->
+			<!-- <a _ngcontent-c0="" class="main-nav__logo-link" href="http://www.metmuseum.org">
 					<svg _ngcontent-c0="" xmlns:xlink="http://www.w3.org/1999/xlink" class="main-nav__logo" version="1.1" xmlns="http://www.w3.org/2000/svg">
 				    <g _ngcontent-c0="" fill="none" fill-rule="evenodd" id="Symbols" stroke="none" stroke-width="1">
 			        <g _ngcontent-c0="" fill="currentcolor" id="met-logo" transform="translate(-140.000000, -30.000000)">
@@ -56,7 +65,7 @@
 
 
 <div class="container">
-  <router-outlet></router-outlet>
+	<router-outlet></router-outlet>
 </div>
 
 

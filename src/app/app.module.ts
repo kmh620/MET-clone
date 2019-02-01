@@ -13,6 +13,10 @@ import { MembershipComponent } from './membership/membership.component';
 import { ShopComponent } from './shop/shop.component';
 import { HomeComponent } from './home/home.component';
 import { routing } from './app.routing';
+import { ArtHistoryComponent } from './art-history/art-history.component';
+import { OnlineFeaturesComponent } from './online-features/online-features.component';
+import { PublicationsComponent } from './publications/publications.component';
+import { LibrariesComponent } from './libraries/libraries.component';
 
 
 @NgModule({
@@ -25,7 +29,11 @@ import { routing } from './app.routing';
     LearnStudentComponent,
     MembershipComponent,
     ShopComponent,
-    HomeComponent
+    HomeComponent,
+    ArtHistoryComponent,
+    OnlineFeaturesComponent,
+    PublicationsComponent,
+    LibrariesComponent
   ],
   imports: [
     BrowserModule,
