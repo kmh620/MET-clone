@@ -7,8 +7,8 @@ export class MetArtApiService {
 
   constructor(private http: Http) { }
 
-  // 
-  // getArt() {
-  //    return this.http.get(``)
-  // }
+
+  getArt() {
+     return this.http.get(`https://collectionapi.metmuseum.org/public/collection/v1/objects/isPublicDomain=true`)primaryImage
+  }
 }

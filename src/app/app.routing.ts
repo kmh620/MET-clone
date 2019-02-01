@@ -20,10 +20,8 @@ const appRoutes: Routes = [
     path: 'collection',
     component: CollectionComponent,
     children: [
-      {
-        path: 'open-access',
-        component: OpenAccessComponent
-      }
+      { path: '', redirectTo: 'open-access', pathMatch: 'full' },
+      { path: 'open-access', component: OpenAccessComponent }
    ]
   },
   {
