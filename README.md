@@ -22,7 +22,7 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
   * Search Functionality
   * Membership/Ticket/Volunteer info entry
   * _^or_  Shop page?
-  * 1 < dropdown menu
+    * **DONE** 1 < dropdown menu
   * **TheMET Api** : https://metmuseum.github.io/
   * Change favicon?
   * Home Page
