@@ -1,43 +1,43 @@
 # **Website Clone** - Metropolitan Museum of Art
 
 ### _Clone of TheMET website with Angular/Typescript_
-_1/25/2019_
+_2/01/2019_
 
 
 #### By Katrina Hockman
 
 ## __Description__
- _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
-
 This site is inspired by the website for The Metropolitan Museum of Art. It's purpose is to mimic the functionality and look of their website.
 
-## __Known Bugs/ What to work on W2__
-* **Link for 'Art' generates error**: "RangeError: Maximum call stack size exceeded" = Problem with loop.
-* Not all HTML pages have info
+## __Finished Functionality__
+
+## __Known Bugs/ Functionality Needing Work__
+* Not all HTML pages have info/ Routing
 * CSS unfinished
-* No component functions?
-* app.component.html has commented code-copied from source site, for displaying logo as home button
 * Need to **Add:**
-  * CSS
-  * For Navbar: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar
   * Search Functionality, pop up/dropdown search input
-  * Membership/Ticket/Volunteer info entry
-  * _^or_  Shop page?
-    * **DONE** 1 < dropdown menu
-  * **TheMET Api** : https://metmuseum.github.io/
-  * https://developers.artsy.net/
-  * Change favicon?
+  * Membership/Ticket/Volunteer/Shop info entry
   * Home Page
   * Footer info bar
+  * Complete routing
 
 
 ## __Setup/Installation Requirements__
-
+* Create Firebase account/project
+* Create database called "artworks"
+* Upload art.json file to database
 * Clone repository
 * Run npm install from terminal
 * Run ng serve --open from terminal
-* Navigate through website with clickable links in navbar at top of page _*Warning_: Art link *does not work*
-* Acquire firebase credentials
+* Navigate through website with available clickable links in navbar dropdown menus at top of page
+  *Available links*
+  * THEMET
+  * Visit > But Tickets
+  * Art > The Met Collection
+    * Open Access Artworks
+  * Learn > Uni Students & Faculty
+
+
 
 
 ### __Technologies Used__
