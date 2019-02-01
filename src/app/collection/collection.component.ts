@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 // import { Art } from '../art';
 import { Art } from '../models/art.model';
 import { AppComponent } from '../app.component';
-import { OpenAccessComponent } from './open-access/open-access.component';
+import { OpenAccessComponent } from '../open-access/open-access.component';
 
 @Component({
   selector: 'app-collection',

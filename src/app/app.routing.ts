@@ -1,3 +1,4 @@
+
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -8,7 +9,7 @@ import { LearnStudentComponent } from './learn-student/learn-student.component';
 import { MembershipComponent } from './membership/membership.component';
 import { ShopComponent } from './shop/shop.component';
 import { TicketsComponent } from './tickets/tickets.component';
-import { OpenAccessComponent } from './collection/open-access/open-access.component';
+import { OpenAccessComponent } from './open-access/open-access.component';
 
 
 const appRoutes: Routes = [
@@ -18,11 +19,10 @@ const appRoutes: Routes = [
   },
   {
     path: 'collection',
-    component: CollectionComponent,
-    children: [
-      { path: '', redirectTo: 'open-access', pathMatch: 'full' },
-      { path: 'open-access', component: OpenAccessComponent }
-   ]
+    component: CollectionComponent
+   //  children: [
+   //    { path: 'open-access', component: OpenAccessComponent }
+   // ]
   },
   {
     path: 'events',
@@ -47,6 +47,10 @@ const appRoutes: Routes = [
   {
     path: 'tickets',
     component: TicketsComponent
+  },
+  {
+    path: 'open-access',
+    component: OpenAccessComponent
   }
 
 ];

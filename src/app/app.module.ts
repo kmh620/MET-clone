@@ -20,7 +20,7 @@ import { ArtHistoryComponent } from './art-history/art-history.component';
 import { OnlineFeaturesComponent } from './online-features/online-features.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { LibrariesComponent } from './libraries/libraries.component';
-import { OpenAccessComponent } from './collection/open-access/open-access.component';
+import { OpenAccessComponent } from './open-access/open-access.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
