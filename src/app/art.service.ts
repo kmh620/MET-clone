@@ -9,6 +9,7 @@ export class ArtService {
   constructor(private database: AngularFireDatabase) {
     this.artworks = database.list('artworks');
   }
+
   getArt(){
     return this.artworks;
   }
