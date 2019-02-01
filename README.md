@@ -19,7 +19,8 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
 * app.component.html has commented code-copied from source site, for displaying logo as home button
 * Need to **Add:**
   * CSS
-  * Search Functionality
+  * For Navbar: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar
+  * Search Functionality, pop up/dropdown search input
   * Membership/Ticket/Volunteer info entry
   * _^or_  Shop page?
   * 1 < dropdown menu
