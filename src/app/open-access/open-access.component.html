@@ -1,11 +1,9 @@
 <div class="container">
-  <p>
-    open-access works!
-  </p>
 
   <div *ngFor="let artwork of artworks | async" class="panel panel-default">
     <div class="panel-body">
-      <h3><img src="{{artwork.image}}" alt=""><em>{{artwork.title}}</em> by {{artwork.artist}}</h3>
+      <img src="{{artwork.image}}" alt="">
+      <h3><em>{{artwork.title}}</em> by {{artwork.artist}}</h3>
     </div>
   </div>
 
