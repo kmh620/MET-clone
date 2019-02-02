@@ -3,13 +3,15 @@
 ### _Clone of TheMET website with Angular/Typescript_
 _2/01/2019_
 
-
 #### By Katrina Hockman
 
 ## __Description__
 This site is inspired by the website for The Metropolitan Museum of Art. It's purpose is to mimic the functionality and look of their website.
 
 ## __Finished Functionality__
+* Some CSS & HTML
+* Some routing
+* Components made and ready to be finished
 
 ## __Known Bugs/ Functionality Needing Work__
 * Not all HTML pages have info/ Routing
@@ -22,7 +24,11 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
   * Complete routing
 
 
+
 ## __Setup/Installation Requirements__
+
+* View live site here
+
 * Create Firebase account/project
 * Create database called "artworks"
 * Upload art.json file to database
