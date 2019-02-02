@@ -16,6 +16,7 @@ This site is inspired by the website for The Metropolitan Museum of Art. It's pu
 ## __Known Bugs/ Functionality Needing Work__
 * Not all HTML pages have info/ Routing
 * CSS unfinished
+* Image sizes too big
 * Need to **Add:**
   * Search Functionality, pop up/dropdown search input
   * Membership/Ticket/Volunteer/Shop info entry
